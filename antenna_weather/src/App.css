@@ -1,0 +1,100 @@
+html {
+  background: radial-gradient(circle at 10% 20%, rgb(55, 209, 255) 0%, rgb(14, 31, 111) 100.2%);
+  background-image: url("Background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+h1 {
+  margin-bottom: 0px;
+}
+
+.background {
+  max-width: 1600px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
+
+.blueBackground {
+  margin-bottom: 0;
+  border-radius: 10px;
+  background: radial-gradient(circle at 48.7% 44.3%, rgb(30, 144, 231) 0%, rgb(56, 113, 209) 22.9%, rgb(38, 76, 140) 76.7%, rgb(31, 63, 116) 100.2%);
+}
+
+.divTemperature {
+  display: flex;
+  justify-content: space-around;
+  font-size: 30px;
+}
+
+.min {
+  background-color: #268eca
+}
+
+.max {
+  background-color: #4f1d22
+}
+
+.weekDay {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.weekdaySvgFlex,
+.pngFlex,
+.temperatureFlex {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  gap: 10px;
+}
+
+.pngFlex,
+.temperatureFlex {
+  margin-top: 10px;
+}
+
+.temperature {
+  padding: 10px;
+  border-radius: 50%;
+  color: #fff;
+  font-weight: bold;
+}
+
+.temperatureFlex {
+  margin-bottom: 30px;
+}
+
+.weather {
+  border-left: 10px solid white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.weatherImage,
+.directionImage,
+.divTemperature {
+  width: 200px;
+}
+
+.weekoverzicht {
+  text-align: left;
+  background-color: #fff;
+  width: fit-content;
+  padding: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 45px;
+  margin: 0;
+  margin-left: -30px;
+  mix-blend-mode: screen;
+  letter-spacing: 2px;
+}
+
