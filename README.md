@@ -10,6 +10,6 @@ Schrijf een webapplicatie die het huidige weer vertaalt. Dat kan in kleur, gevoe
 
 ### Inspiratie: 
 * VRT weerbericht 2009
-* [Imgur](https://i.imgur.com/YKzWnXo.png)
+* [Foto](https://i.imgur.com/YKzWnXo.png)
 ### Resultaat:
-* [Imgur](https://i.imgur.com/xWKmvbG.png)
+* [Foto](https://i.imgur.com/xWKmvbG.png)
